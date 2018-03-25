@@ -165,7 +165,7 @@ def oldCombine(
 }
 ```
 
-is now equivalent to `Semigroupal.combine`:
+is now equivalent to `Semigroupal.product`:
 
 ```tut:book:silent
 import cats.syntax.apply._ // for mapN
